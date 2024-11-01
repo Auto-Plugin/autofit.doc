@@ -23,7 +23,9 @@ autofit.init({
 });
 ```
 
-## canvas 事件热区偏移
+## canvas 事件热区偏移、element等弹出层位置偏移问题
+
+### canvas 热区偏移
 
 1. **使用 `ignore` 参数**
 
@@ -85,3 +87,24 @@ autofit.init({
    使用 elRectification 时，需要被矫正的元素已经挂载
 
     :::
+
+### element等弹出层偏移
+
+感谢 [@hellorayza](https://github.com/hellorayza) [PR#74](https://github.com/LarryZhu-dev/autofit.js/pull/74) 
+
+使用 **子串匹配属性** 选择器 div[id*="el-popper-container"]  可以解决 element 弹出层偏移问题，其他组件库也是类似用法，例：
+
+```js
+autofit.init({
+  ignore:['div[id*="el-popper-container"]']
+});
+```
+
+elRectification 同样也可以解决弹出层偏移问题，只需
+
+```js
+onMounted(() => {
+  elRectification('div[id*="el-popper-container"]');
+});
+```
+
