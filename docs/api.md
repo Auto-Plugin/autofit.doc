@@ -23,9 +23,7 @@ autofit.init({
 });
 ```
 
-## canvas 事件热区偏移、element等弹出层位置偏移问题
-
-### canvas 热区偏移
+## 事件热区偏移
 
 1. **使用 `ignore` 参数**
 
@@ -88,11 +86,11 @@ autofit.init({
 
     :::
 
-### element等弹出层偏移
+## element 等弹出层偏移
 
 感谢 [@hellorayza](https://github.com/hellorayza) [PR#74](https://github.com/LarryZhu-dev/autofit.js/pull/74) 
 
-使用 **子串匹配属性** 选择器 div[id*="el-popper-container"]  可以解决 element 弹出层偏移问题，其他组件库也是类似用法，例：
+对于 element-plus`（如果弹出层组件未在autofit影响的元素(默认是body)内，则不受影响）` 使用 **子串匹配属性** 选择器 div[id*="el-popper-container"]  可以解决 element 弹出层偏移问题，其他组件库也是类似用法，例：
 
 ```js
 autofit.init({
@@ -108,3 +106,12 @@ onMounted(() => {
 });
 ```
 
+对于 element-ui 可以直接使用 auto-element 替换原有的 element-ui，auto-element 是对 element-ui 的偏移问题进行了修复，使用方法与 element-ui 一致。
+
+此方法由仓库成员 [@ffgenius](https://github.com/ffgenius) 提供
+
+```shell
+pnpm i auto-element
+```
+
+具体参考：[auto-element](https://github.com/Auto-Plugin/auto-element/blob/dev/README.md)

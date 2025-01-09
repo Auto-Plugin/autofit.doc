@@ -23,7 +23,7 @@ export default defineConfig({
       {
         items: [
           { text: '即刻使用', link: '/use' },
-          { text: '使用进阶参数', link: '/api' },
+          { text: '进阶参数', link: '/api' },
           { text: '关闭 autofit.js', link: '/close' },
           { text: '了解 autofit.js 原理', link: '/theory' },
           { text: '还有问题？', link: '/question' },
