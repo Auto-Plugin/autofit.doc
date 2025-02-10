@@ -29,6 +29,17 @@
     <img src="./c.jpg" style="width:50%;height:480px;object-fit:cover;"/><img src="./c1.jpg" style="width:50%;height:480px;object-fit:cover;"/>
 </center>
 
+<style>
+ @media screen and (max-width:1280px){
+    center {
+        flex-direction:column;
+        align-items:center;
+    }
+    center img{
+        width:80%;
+    }
+ }
+</style>
 ::: tip 🟢
 
 群二维码过期请添加德莱厄斯
