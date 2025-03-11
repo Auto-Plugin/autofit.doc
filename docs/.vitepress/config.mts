@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "autofit.js",
   description: "迄今为止最易用的自适应工具",
-  base: "/index/autofit.js/",
+  base: "/autofit.js/",
   head: [
     [
       'link',
