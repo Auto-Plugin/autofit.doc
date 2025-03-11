@@ -115,3 +115,13 @@ pnpm i auto-element
 ```
 
 具体参考：[auto-element](https://github.com/Auto-Plugin/auto-element/blob/dev/README.md)
+
+## 获取当前缩放值
+
+```js
+window.addEventListener('resize', () => {
+  console.log(autofit.scale) // 每次改变窗口大小时，此值会改变
+})
+```
+
+此方法由仓库成员 [@ffgenius](https://github.com/ffgenius) 提供
