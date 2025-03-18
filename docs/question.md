@@ -23,7 +23,7 @@
 
 ## 还有问题？
 
-欢迎来到诺克萨斯（不朽堡垒已满200，请加黑色玫瑰）
+欢迎来到诺克萨斯
 
 <center style="display: flex;justify-content: center;align-items: flex-start;flex-wrap: wrap;">
     <img src="./c.jpg" style="width:50%;height:480px;object-fit:cover;"/><img src="./c1.jpg" style="width:50%;height:480px;object-fit:cover;"/>
