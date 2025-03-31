@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "autofit.js"
-  text: "迄今为止最易用的自适应工具"
+  name: 'autofit.js'
+  text: '迄今为止最易用的自适应工具'
   image:
     src: './logo.png'
     alt: autofit.js
@@ -31,18 +31,15 @@ features:
 
 <style>
 :root {
-    --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: linear-gradient(-45deg, #bd34fe 10%, #41d1ff);
-
-    --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
-    --vp-home-hero-image-filter: blur(88px);
-
-    --vp-button-brand-border: transparent;
-    --vp-button-brand-text: #fff;
-    --vp-button-brand-bg: #5468ff;
-
-    --vp-button-brand-hover-border: transparent;
-    --vp-button-brand-hover-text: #fff;
-    --vp-button-brand-hover-bg: #5c73e7;
+    --vp-home-hero-name-color: transparent!important;
+    --vp-home-hero-name-background: linear-gradient(-45deg, #bd34fe 10%, #41d1ff)!important;
+    --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%)!important;
+    --vp-home-hero-image-filter: blur(88px)!important;
+    --vp-button-brand-border: transparent!important;
+    --vp-button-brand-text: #fff!important;
+    --vp-button-brand-bg: #5468ff!important;
+    --vp-button-brand-hover-border: transparent!important;
+    --vp-button-brand-hover-text: #fff!important;
+    --vp-button-brand-hover-bg: #5c73e7!important;
 }
 </style>
