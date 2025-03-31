@@ -9,7 +9,7 @@
 - `delay` : 默认是 0
 - `limit` : 默认是 0.1，当缩放阈值不大于此值时不缩放
 - `cssMode` : 选择 css 缩放方式，默认值为 scale
-- `allowScoll` : 是否允许滚动，默认值为 false
+- `allowScroll` : 是否允许滚动，默认值为 false
 
 ## 示例
 
