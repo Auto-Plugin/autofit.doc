@@ -21,6 +21,12 @@
 
 全屏的元素无法修改其宽高、缩放等样式，在使用全屏 API 时，不要选择 autofit.js 接管的元素，而是选择其上级元素。
 
+## 堡垒 AI
+
+[欢迎使用堡垒 AI，Codex 低至 x0.02，支持 Fable 5，邀请返利 12%！](https://ourbastion.com/register?aff=4A3VM2B7KSEM)
+
+<img src="./ai.jpg" alt="堡垒 AI" width="200">
+
 ## 还有问题？
 
 欢迎来到诺克萨斯
